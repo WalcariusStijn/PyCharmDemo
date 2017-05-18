@@ -82,6 +82,7 @@ print_dictionary("kwadraten",nieuwe_dict)
 
 
 
+
 def tel_voorkomen_woorden(zin):
     dic = {}
     for woord in zin.split(" "):
