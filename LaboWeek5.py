@@ -78,6 +78,7 @@ def geef_dict():
 
 nieuwe_dict = geef_dict()
 print_dictionary("kwadraten",nieuwe_dict)
+#demo test
 
 
 
