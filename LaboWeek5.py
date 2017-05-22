@@ -93,6 +93,7 @@ zin = "dit is nmct is het niet waar ? Uiteraard NMCT"
 print("Onderzochte zin:\n%s\n" % zin)
 dic_woorden = tel_voorkomen_woorden(zin)
 print_dictionary("Woorden_dic",dic_woorden)
+print("Ten einde")
 
 
 # set:
