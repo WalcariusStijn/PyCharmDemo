@@ -94,6 +94,10 @@ print("Onderzochte zin:\n%s\n" % zin)
 dic_woorden = tel_voorkomen_woorden(zin)
 print_dictionary("Woorden_dic",dic_woorden)
 print("Ten einde")
+print("Jef Daels")
+print("Walcarius Stijn")
+print("DEmo")
+
 
 
 # set:
