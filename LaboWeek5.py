@@ -69,19 +69,16 @@ def print_dictionary(naam_verzameling, elementen):
 # print_dictionary("Howest", Howest)
 # voeg_niew_element_toe("1IPO", 10, Howest)
 
-# genererenn van een dictionary waarbij value het kwadraat van de key is
+#genererenn van een dictionary waarbij value het kwadraat van de key is
 def geef_dict():
     d = {}
     for i in range(1, 21):
         d[i] = i ** 2
     return d
 
-
 nieuwe_dict = geef_dict()
-print_dictionary("kwadraten", nieuwe_dict)
-
-
-# demo test
+print_dictionary("kwadraten",nieuwe_dict)
+#demo test
 
 
 
@@ -89,26 +86,19 @@ print_dictionary("kwadraten", nieuwe_dict)
 def tel_voorkomen_woorden(zin):
     dic = {}
     for woord in zin.split(" "):
-        dic[woord.lower()] = dic.get(woord.lower(), 0) + 1
+        dic[woord.lower()] = dic.get(woord.lower(),0) + 1
     return dic
-
 
 zin = "dit is nmct is het niet waar ? Uiteraard NMCT"
 print("Onderzochte zin:\n%s\n" % zin)
 dic_woorden = tel_voorkomen_woorden(zin)
-print_dictionary("Woorden_dic", dic_woorden)
+print_dictionary("Woorden_dic",dic_woorden)
 print("Ten einde")
 print("Jef Daels")
 print("Walcarius Stijn")
 print("DEmo")
-print("Demo 9")
-print("Demo 9B")
-print("Demo 9c")
-print("Demo 10")
-print("Demo 11")
-print("Demo 12")
-
-
+print ("Demo 9")
+print ("Demo 9B")
 
 
 
