@@ -105,6 +105,9 @@ print("Demo 9")
 print("Demo 9B")
 print("Demo 9c")
 print("Demo 10")
+print("Demo 11")
+print("Demo 12")
+
 
 
 
